@@ -1,0 +1,26 @@
+.projects-page {
+  min-height: 100vh;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.15) !important;
+}
+
+.project-card img {
+  min-height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .project-card img {
+    min-height: 250px;
+    max-height: 250px;
+  }
+}

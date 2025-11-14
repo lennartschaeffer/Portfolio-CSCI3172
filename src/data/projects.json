@@ -1,0 +1,39 @@
+[
+  {
+    "title": "ResuRalph",
+    "technologies": "Python, Flask, Docker, AWS (Lambda, SQS, S3, DynamoDB), OpenAI",
+    "description": "A Discord bot designed to streamline collaborative resume reviews for a community of 2,000+ students, eliminating cluttered review threads and combining both peer and AI-powered resume annotations directly in Discord.",
+    "role": "Project Owner",
+    "achievements": [
+      "Implemented an upload-to-review system with AWS S3 for uploads, Hypothes.is for in-line resume annotations, and version tracking via DynamoDB, driving fast and iterative peer reviews",
+      "Re-architected EC2-based infrastructure to a serverless, event-driven model using AWS Lambda, AWS SQS, and Discord Webhooks, reducing hosting costs by over 90% and enabling on-demand execution"
+    ],
+    "problemSolved": "Students needed a way to efficiently collaborate on resume reviews without cluttering Discord threads, as well as a fix to the problem of constantly needing to re-download PDF files and send feedback as long Discord messages.",
+    "image": "src/assets/resuralph.png"
+  },
+  {
+    "title": "Bloomwatch",
+    "subtitle": "Canadian Space Agency Hackathon 1st Place 🥇",
+    "technologies": "Python, Flask, Matplotlib",
+    "description": "A full-stack web application built in a team of 3 using satellite data to detect and visualize harmful algal blooms and their contributing factors.",
+    "role": "Team Developer (Team of 3)",
+    "achievements": [
+      "Won 1st place at the Canadian Space Agency Hackathon",
+      "Enabled environmental agencies to see exactly where to place preventative measures through data visualization"
+    ],
+    "problemSolved": "Harmful Algal Blooms are projected to cost Canada 5.3 billion over the next 30 years. Environmental agencies needed a tool to identify and monitor harmful algal blooms in water bodies along with their contributing factors, allowing them to instantly visualize where to implement prevantative measures like vegatative strips.",
+    "image": "src/assets/bloomwatch.png"
+  },
+  {
+    "title": "PicklePal",
+    "technologies": "PyTorch, OpenCV, YOLOv8, React, FastAPI, Python",
+    "description": "A computer vision-based application to analyze pickleball matches, detecting shot techniques, ball hits, and rallies to help players improve their game.",
+    "role": "ML Engineer & Full-Stack Developer",
+    "achievements": [
+      "Trained a PyTorch neural network to classify forehand vs backhand shot techniques based on player joint positions, achieving 87% test accuracy",
+      "Implemented an OpenCV video processing pipeline with MediaPipe for player key-point extraction and custom trained YOLOv8 models to detect players, balls, and court lines"
+    ],
+    "problemSolved": "Pickleball players lacked accessible tools to analyze their gameplay and improve their technique. Manual video review is time-consuming and lacks the precision of automated computer vision analysis.",
+    "image": "src/assets/picklepal.png"
+  }
+]
