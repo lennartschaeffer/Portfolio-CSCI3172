@@ -9,7 +9,7 @@
       "Re-architected EC2-based infrastructure to a serverless, event-driven model using AWS Lambda, AWS SQS, and Discord Webhooks, reducing hosting costs by over 90% and enabling on-demand execution"
     ],
     "problemSolved": "Students needed a way to efficiently collaborate on resume reviews without cluttering Discord threads, as well as a fix to the problem of constantly needing to re-download PDF files and send feedback as long Discord messages.",
-    "image": "src/assets/resuralph.png"
+    "image": "resuralph.png"
   },
   {
     "title": "Bloomwatch",
@@ -22,7 +22,7 @@
       "Enabled environmental agencies to see exactly where to place preventative measures through data visualization"
     ],
     "problemSolved": "Harmful Algal Blooms are projected to cost Canada 5.3 billion over the next 30 years. Environmental agencies needed a tool to identify and monitor harmful algal blooms in water bodies along with their contributing factors, allowing them to instantly visualize where to implement prevantative measures like vegatative strips.",
-    "image": "src/assets/bloomwatch.png"
+    "image": "bloomwatch.png"
   },
   {
     "title": "PicklePal",
@@ -34,6 +34,6 @@
       "Implemented an OpenCV video processing pipeline with MediaPipe for player key-point extraction and custom trained YOLOv8 models to detect players, balls, and court lines"
     ],
     "problemSolved": "Pickleball players lacked accessible tools to analyze their gameplay and improve their technique. Manual video review is time-consuming and lacks the precision of automated computer vision analysis.",
-    "image": "src/assets/picklepal.png"
+    "image": "picklepal.png"
   }
 ]

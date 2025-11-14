@@ -1,11 +1,16 @@
 export default function Project({ project }) {
+  // helper function to import images from assets folder dynamically. was facing a problem accessing images when deployed to netlify
+  const getImageUrl = (imageName) => {
+    return new URL(`../assets/${imageName}`, import.meta.url).href;
+  };
+
   return (
     <div className="col-12 mb-4">
       <div className="card shadow-sm h-100 project-card">
         <div className="row g-0">
           <div className="col-md-5 d-flex justify-content-center align-items-center mt-sm-3 mt-md-0">
             <img
-              src={project.image}
+              src={getImageUrl(project.image)}
               className="img-fluid rounded-start h-100 object-fit-cover"
               alt={project.title}
             />
