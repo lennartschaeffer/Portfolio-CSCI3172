@@ -1,11 +1,11 @@
-# Lab 6
+# Lab 5
 
 **[Optional]** If what is being submitted is an individual Lab or Assignment. Otherwise, include a brief one paragraph description about the project.
 
 - Date Created: 14 11 2025
 - Last Modification Date: 14 11 2025
-- GitLab URL: https://git.cs.dal.ca/schaeffer/csci-3172/-/tree/main/labs/lab6/
-- Netlify URL: 
+- GitLab URL: https://git.cs.dal.ca/schaeffer/csci-3172/-/tree/main/labs/lab5/
+- Netlify URL: https://lab5-portfolio-lennart.netlify.app/
 
 ## What I did to test my application:
 
